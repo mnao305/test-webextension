@@ -20,7 +20,7 @@ jobs:
         npm ci
         npm run build
     - name: Upload & release
-      uses: mnao305/chrome-extension-upload@v1
+      uses: mnao305/chrome-extension-upload@1
       with:
         file-path: dist/test.zip
         extension-id: hidgdglmfmkeeanojdjlbinicbhpkebi

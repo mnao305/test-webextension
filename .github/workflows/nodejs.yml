@@ -23,7 +23,7 @@ jobs:
     - name: Upload & release
       uses: mnao305/chrome-extension-upload@1.1.0-rc
       with:
-        file-path: dist_zip/*.zip
+        file-path: dist_zip/*
         extension-id: hidgdglmfmkeeanojdjlbinicbhpkebi
         client-id: ${{ secrets.CLIENT_ID }}
         client-secret: ${{ secrets.CLIENT_SECRET }}

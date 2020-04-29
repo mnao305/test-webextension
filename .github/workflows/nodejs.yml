@@ -21,7 +21,7 @@ jobs:
         npm run build
         npm run zip
     - name: Upload & release
-      uses: mnao305/chrome-extension-upload@1.1.0-rc
+      uses: mnao305/chrome-extension-upload@1.1.0-rc2
       with:
         file-path: dist_zip/*
         extension-id: hidgdglmfmkeeanojdjlbinicbhpkebi
